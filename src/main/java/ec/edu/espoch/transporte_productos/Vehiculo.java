@@ -5,10 +5,6 @@
 package ec.edu.espoch.transporte_productos;
 
 public abstract class Vehiculo {
-    
-    private double velocidad;
-    private double tiempo;
-    
 
     public double calcularDistancia(double velocidad) {
         return velocidad * 1;
