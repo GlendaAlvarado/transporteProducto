@@ -9,9 +9,12 @@ package ec.edu.espoch.transporte_productos;
  * @author alvar
  */
 public class Carro extends Vehiculo {
-    
+
+    public Carro(String nombre, double capacidad) {
+        super(nombre, capacidad);
+    }
     @Override
     public void transportar() {
-        System.out.println(">El carro transporta productos por carretera de forma eficiente.");
+        System.out.println("El carro transporta productos por carretera de forma eficiente.");
     }
 }

@@ -9,9 +9,13 @@ package ec.edu.espoch.transporte_productos;
  * @author alvar
  */
 public class Avion extends Vehiculo {
+
+    public Avion(String nombre, double capacidad) {
+        super(nombre, capacidad);
+    }
     
     @Override
     public void transportar() {
-        System.out.println(">El avion transporta productos grandes o internacionales de forma rapida por aire.");
+        System.out.println("El avion transporta productos grandes o internacionales de forma rapida por aire.");
     }
 }
